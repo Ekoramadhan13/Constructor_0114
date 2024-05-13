@@ -23,7 +23,17 @@ public:
     }
 };
 
+int mahasiswa::nim = 20230140114;
 
+void mahasiswa::setID()
+{
+    id = ++nim;
+}
+
+void mahasiswa::printAll()
+{
+    cout << "ID = " << id << endl;
+}
 int main()
 {
     std::cout << "Hello World!\n";
