@@ -33,7 +33,10 @@ void mahasiswa::setID()
 void mahasiswa::printAll()
 {
     cout << "ID = " << id << endl;
+    cout << "Nama = " << nama << endl;
+    cout << endl;
 }
+
 int main()
 {
     std::cout << "Hello World!\n";
